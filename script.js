@@ -19,7 +19,7 @@ form.addEventListener("submit", async (e) => {
     } catch (e) {
 
         console.error(e);
-        link.innerHTML = `<span>Something went wrong. Either your domain is blocked or ivalid url</span>`;
+
     }
 
 });
